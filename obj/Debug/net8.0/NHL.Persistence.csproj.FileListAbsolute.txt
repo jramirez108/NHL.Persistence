@@ -12,3 +12,4 @@ C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Debug\net8.0\refint\N
 C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Debug\net8.0\NHL.Persistence.pdb
 C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Debug\net8.0\NHL.Persistence.genruntimeconfig.cache
 C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Debug\net8.0\ref\NHL.Persistence.dll
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Debug\net8.0\NHL.Persistence.sourcelink.json

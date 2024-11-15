@@ -1,0 +1,15 @@
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\bin\Release\net8.0\NHL.Persistence.deps.json
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\bin\Release\net8.0\NHL.Persistence.runtimeconfig.json
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\bin\Release\net8.0\NHL.Persistence.dll
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\bin\Release\net8.0\NHL.Persistence.pdb
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Release\net8.0\NHL.Persistence.csproj.AssemblyReference.cache
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Release\net8.0\NHL.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Release\net8.0\NHL.Persistence.AssemblyInfoInputs.cache
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Release\net8.0\NHL.Persistence.AssemblyInfo.cs
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Release\net8.0\NHL.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Release\net8.0\NHL.Persistence.sourcelink.json
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Release\net8.0\NHL.Persistence.dll
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Release\net8.0\refint\NHL.Persistence.dll
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Release\net8.0\NHL.Persistence.pdb
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Release\net8.0\NHL.Persistence.genruntimeconfig.cache
+C:\Users\jos31\source\repos\PropFinder\NHL.Persistence\obj\Release\net8.0\ref\NHL.Persistence.dll

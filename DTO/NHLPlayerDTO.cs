@@ -16,6 +16,7 @@ namespace NHL.Persistence.DTO
         public string PositionGroup { get; set; }
         public int PositionId { get; set; }
         public string PositionAbbreviation { get; set; }
+        public string Hand { get; set; }
         public string PositionName { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
