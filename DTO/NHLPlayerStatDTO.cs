@@ -27,6 +27,9 @@ namespace NHL.Persistence.DTO
         public int GameWinningGoals { get; set; }
         public string TimeOnIcePerGame { get; set; } = string.Empty;
         public string Production { get; set; } = string.Empty;
+        public int GoalsAgainst { get; set; } = 0;
+        public int ShotsAgainst { get; set; } = 0;
+        public int Saves { get; set; } = 0;
         public bool IsHomeGame { get; set; }
         public bool IsWin { get; set; }
         public string PlayersParticipated { get; set; } = string.Empty;

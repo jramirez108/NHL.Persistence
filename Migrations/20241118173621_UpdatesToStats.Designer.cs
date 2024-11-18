@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NHL.Persistence;
 
@@ -10,9 +11,11 @@ using NHL.Persistence;
 namespace NHL.Persistence.Migrations
 {
     [DbContext(typeof(NHLDbContext))]
-    partial class NHLDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241118173621_UpdatesToStats")]
+    partial class UpdatesToStats
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
