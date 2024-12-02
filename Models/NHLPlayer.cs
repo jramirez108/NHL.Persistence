@@ -23,6 +23,6 @@ namespace NHL.Persistence.Models
         public string FullName { get; set; }
         public int StatusId { get; set; }
         public virtual List<NHLPlayerStat> Stats { get; set; }
-        public virtual List<NHLPlayerOdds> Odds { get; set; }
+        public virtual List<EnhancedNHLPlayerOdds> EnhancedOdds { get; set; }
     }
 }

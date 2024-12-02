@@ -21,6 +21,8 @@ namespace NHL.Persistence
         public DbSet<NHLGame> Games { get; set; }
         public DbSet<NHLPlayerOdds> PlayerOdds { get; set; }
         public DbSet<NHLTeamStats> TeamStats { get; set; }
+        public DbSet<EnhancedNHLPlayerOdds> EnhancedNBAPlayerOdds { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -43,12 +45,12 @@ namespace NHL.Persistence
                 .HasForeignKey(x => x.PlayerId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<NHLPlayer>().HasMany(x => x.Odds)
+            modelBuilder.Entity<NHLPlayer>().HasMany(x => x.EnhancedOdds)
                 .WithOne()
                 .HasForeignKey(x => x.PlayerId)
                 .OnDelete(DeleteBehavior.Restrict);
             modelBuilder.Entity<NHLPlayer>().Navigation(x => x.Stats).AutoInclude();
-            modelBuilder.Entity<NHLPlayer>().Navigation(x => x.Odds).AutoInclude();
+            modelBuilder.Entity<NHLPlayer>().Navigation(x => x.EnhancedOdds).AutoInclude();
 
             //NHL Game
             modelBuilder.Entity<NHLGame>().HasKey(x => x.Id);
