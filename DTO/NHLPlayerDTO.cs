@@ -23,6 +23,6 @@ namespace NHL.Persistence.DTO
         public string FullName { get; set; }
         public int StatusId { get; set; }
         public List<NHLPlayerStatDTO> Stats { get; set; }
-        public List<NHLPlayerOdds> Odds { get; set; }
+        public List<EnhancedNHLPlayerOdds> EnhancedOdds { get; set; }
     }
 }
