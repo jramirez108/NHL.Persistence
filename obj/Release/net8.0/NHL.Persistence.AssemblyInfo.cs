@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NHL.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc8889add037010d3ff8178a3b9486e46ab36c86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb44a988d21a939b3b3f6c57801205b2b33566b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("NHL.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NHL.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

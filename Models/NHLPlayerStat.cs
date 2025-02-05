@@ -21,6 +21,18 @@ namespace NHL.Persistence.Models
         public int ShortHandedGoals {get; set;}
         public int ShortHandedAssists {get; set;}
         public int GameWinningGoals { get; set; }
+        public int BlockedShots { get; set; }
+        public int TakeAways { get; set; }
+        public int Hits { get; set; }
+        public string PowerPlayTimeOnIce { get; set; } = string.Empty;
+        public string ShortHandedTimeOneIce { get; set; } = string.Empty;
+        public string EventStregthTimeOnIce { get; set; } = string.Empty;
+        public int MissedShots { get; set; }
+        public int ShootoutGoals { get; set; }
+        public int FaceOffsWon { get; set; }
+        public int FaceOffLost { get; set; }
+        public int GiveAways { get; set; }
+        public int NumberOfPenalties { get; set; }
         public string TimeOnIcePerGame { get; set; } = string.Empty;
         public string Production { get; set; } = string.Empty;
         public int GoalsAgainst { get; set; } = 0;
